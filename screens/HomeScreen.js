@@ -10,14 +10,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
         <View style={styles.welcomeContainer}>
-          <Image
-            source={
-              __DEV__
-                ? require('../assets/images/robot-dev.png')
-                : require('../assets/images/robot-prod.png')
-            }
-            style={styles.welcomeImage}
-          />
+          
         </View>
 
         <View style={styles.getStartedContainer}>
@@ -30,7 +23,7 @@ export default function HomeScreen() {
           </View>
 
           <Text style={styles.getStartedText}>
-            Change any of the text, save the file, and your app will automatically reload.
+            Hello World
           </Text>
         </View>
 
@@ -139,7 +132,7 @@ const styles = StyleSheet.create({
   },
   tabBarInfoContainer: {
     position: 'absolute',
-    bottom: 0,
+    top: 0,
     left: 0,
     right: 0,
     ...Platform.select({

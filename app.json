@@ -23,7 +23,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan qr codes."
+      }
+    },
+    "android": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan qr codes."
+      }
     },
     "web": {
       "favicon": "./assets/images/favicon.png"

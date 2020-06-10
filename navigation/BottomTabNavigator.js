@@ -41,7 +41,7 @@ function getHeaderTitle(route) {
 
   switch (routeName) {
     case 'Home':
-      return 'How to get started';
+      return 'RFJ Meiswinkle Daily Sign In/Sign Out';
     case 'Links':
       return 'Links to learn more';
   }
